@@ -1,4 +1,4 @@
-import { Romanos } from './/romanos';
+import { Romanos } from './romanos';
 
 const sutConversor = new Romanos();
 
@@ -12,5 +12,5 @@ describe("Roman to Int Conversor test suite", () =>{
         expect(sutConversor.romanToInt("I")).toBe(1);
     });
 
-   
+    
 })
