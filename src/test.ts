@@ -12,5 +12,10 @@ describe("Roman to Int Conversor test suite", () =>{
         expect(sutConversor.romanToInt("I")).toBe(1);
     });
 
+    it("Should return 10 when the input is X", () =>{
+        expect(sutConversor.romanToInt("X")).toBe(4);
+    });
+    
+
     
 })
