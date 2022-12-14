@@ -2,13 +2,13 @@ import { Romanos } from './romanos';
 
 const sutConversor = new Romanos();
 
-describe("Roman to Int Conversor test suite", () =>{
+describe("Conversor de inteiro para romanos", () =>{
 
     beforeEach(() => {
         jest.resetAllMocks();
     });
 
-    it("Should return 1 when the input is I", () =>{
+    it("Deveria retornar I quando a entrada for 1", () =>{
         expect(sutConversor.romanToInt("I")).toBe(1);
     });
 
