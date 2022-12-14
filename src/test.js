@@ -9,7 +9,7 @@ describe("Conversor de inteiro para romanos", () => {
     it("Deveria retornar I quando a entrada for 1", () => {
         expect(sutConversor.romanToInt("I")).toBe(1);
     });
-    it("Should return 10 when the input is X", () => {
+    it("Deveria retornar X quando a entrada for 10", () => {
         expect(sutConversor.romanToInt("X")).toBe(4);
     });
 });
