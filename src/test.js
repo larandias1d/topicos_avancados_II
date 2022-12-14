@@ -15,4 +15,7 @@ describe("Conversor de inteiro para romanos", () => {
     it("Deveria retornar XII quando a entrada for 12", () => {
         expect(sutConversor.romanToInt("XII")).toBe(12);
     });
+    it("Deveria retornar CMXCIX quando a entrada for 999", () => {
+        expect(sutConversor.romanToInt("CMXCIX")).toBe(998);
+    });
 });

@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">72.88% </span>
+                <span class="strong">93.22% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>43/59</span>
+                <span class='fraction'>55/59</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">76.92% </span>
+                <span class="strong">90.47% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>10/13</span>
+                <span class='fraction'>19/21</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">83.33% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>5/6</span>
+                <span class='fraction'>6/6</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">72.88% </span>
+                <span class="strong">93.22% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>43/59</span>
+                <span class='fraction'>55/59</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -142,43 +142,43 @@
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">"use strict";
@@ -204,11 +204,11 @@ class Romanos {
         let intNum = 0;
         let charPosition = 0;
         while (charPosition &lt; s.length) {
-            if (((charPosition + 1) &lt;= (s.length - 1)) &amp;&amp; this.verifyNext(s.charAt(charPosition), s.charAt(charPosition + 1))) <span class="branch-0 cbranch-no" title="branch not covered" >{</span>
-<span class="cstat-no" title="statement not covered" >                intNum += this.getModifiedNumber(s.charAt(charPosition), s.charAt(charPosition + 1));</span>
-<span class="cstat-no" title="statement not covered" >                charPosition += 2;</span>
-<span class="cstat-no" title="statement not covered" >                continue;</span>
-<span class="cstat-no" title="statement not covered" >            }</span>
+            if (((charPosition + 1) &lt;= (s.length - 1)) &amp;&amp; this.verifyNext(s.charAt(charPosition), s.charAt(charPosition + 1))) {
+                intNum += this.getModifiedNumber(s.charAt(charPosition), s.charAt(charPosition + 1));
+                charPosition += 2;
+                continue;
+            }
             //@ts-ignore
             intNum += this.dictSymbolValue.get(s.charAt(charPosition));
             charPosition++;
@@ -224,20 +224,20 @@ class Romanos {
             if (this.dictSymbolValue.get(beforeChar) &gt; this.dictSymbolValue.get(afterChar)) {
                 return false;
             }
-<span class="cstat-no" title="statement not covered" ><span class="branch-0 cbranch-no" title="branch not covered" >            return true;</span></span>
-<span class="cstat-no" title="statement not covered" >        }</span>
-<span class="cstat-no" title="statement not covered" ><span class="branch-0 cbranch-no" title="branch not covered" >        if (!(this.charsThatCanModifyNext.includes(beforeChar))) {</span></span>
+            return true;
+        }
+        if (!(this.charsThatCanModifyNext.includes(beforeChar))) <span class="branch-0 cbranch-no" title="branch not covered" >{</span>
 <span class="cstat-no" title="statement not covered" >            return false;</span>
 <span class="cstat-no" title="statement not covered" >        }</span>
-<span class="cstat-no" title="statement not covered" >        if (!(this.charsThatCanBeModified.includes(afterChar))) {</span>
+        if (!(this.charsThatCanBeModified.includes(afterChar))) <span class="branch-0 cbranch-no" title="branch not covered" >{</span>
 <span class="cstat-no" title="statement not covered" >            return false;</span>
 <span class="cstat-no" title="statement not covered" >        }</span>
-<span class="cstat-no" title="statement not covered" >        return true;</span>
+        return true;
     }
-<span class="fstat-no" title="function not covered" >    getModifiedNumber(beforeChar, afterChar) {</span>
-<span class="cstat-no" title="statement not covered" >        //@ts-ignore</span>
-<span class="cstat-no" title="statement not covered" >        return this.dictSymbolValue.get(afterChar) - this.dictSymbolValue.get(beforeChar);</span>
-<span class="cstat-no" title="statement not covered" >    }</span>
+    getModifiedNumber(beforeChar, afterChar) {
+        //@ts-ignore
+        return this.dictSymbolValue.get(afterChar) - this.dictSymbolValue.get(beforeChar);
+    }
 }
 exports.Romanos = Romanos;
 &nbsp;</pre></td></tr></table></pre>
@@ -247,7 +247,7 @@ exports.Romanos = Romanos;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-12-14T02:05:56.091Z
+                at 2022-12-14T02:12:26.811Z
             </div>
         <script src="prettify.js"></script>
         <script>
